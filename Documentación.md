@@ -1,198 +1,178 @@
-DOCUMENTACIÓN DEL PROYECTO
-SISTEMA DE GESTIÓN ACADÉMICA (SGA)
+# **DOCUMENTACIÓN DEL PROYECTO: SISTEMA DE GESTIÓN ACADÉMICA (SGA)**
 
-Integrantes:
+*Integrantes:*
 
-Valery Gabriela Alarcón Peña
+- Valery Gabriela Alarcón Peña
+- Mary Fernanda Rodríguez Morales
 
-Mary Fernanda Rodríguez Morales
+*Profesor:*
 
-Profesor:
+- Ing. Hely Suárez Marín
 
-Ing. Hely Suárez Marín
+---
 
-1. RESUMEN EJECUTIVO
+## **RESUMEN EJECUTIVO**
 
-El Sistema de Gestión Académica (SGA) es una aplicación multiplataforma desarrollada en Python, diseñada para funcionar tanto en equipos de escritorio mediante PyQt / Qt Creator como en dispositivos móviles utilizando Kivy. Su propósito es permitir que los estudiantes gestionen todas sus actividades académicas desde una única herramienta accesible, moderna y funcional.
+*El Sistema de Gestión Académica (SGA) es una aplicación móvil desarrollada en Python utilizando Kivy, diseñada para funcionar en dispositivos Android. Su objetivo es permitir que los estudiantes organicen sus actividades académicas desde una sola herramienta, fácil de usar, con almacenamiento local en SQLite y funcionamiento sin conexión a internet.*
 
-El sistema integra módulos de tareas, calificaciones, horarios, recordatorios y personalización visual. Todos los datos se almacenan localmente en una base de datos SQLite, lo que garantiza acceso sin conexión, seguridad y rendimiento. El SGA fortalece la organización estudiantil, facilita la planificación académica y mejora la productividad en entornos educativos.
+*El SGA integra gestión de tareas, horarios, calificaciones, recordatorios y personalización, creando un entorno organizado, accesible y moderno. De esta manera, los estudiantes pueden mejorar su productividad, mantener seguimiento de su rendimiento y optimizar la administración de su tiempo.*
 
-2. PROBLEMA
+---
 
-Actualmente, muchos estudiantes enfrentan dificultades para administrar sus responsabilidades académicas debido a la dispersión de herramientas digitales como documentos, notas, recordatorios, calendarios o aplicaciones externas. Esto genera problemas como:
+## **PROBLEMA**
 
-Falta de centralización de información.
+*Los estudiantes utilizan múltiples herramientas digitales aisladas para manejar sus actividades académicas: notas, calendarios, recordatorios, hojas de cálculo, etc. Esto genera:*
 
-Pérdida de datos importantes.
+- Desorganización
+- Pérdida de información
+- Dificultad para hacer seguimiento académico
+- Falta de centralización
+- Problemas al alternar entre distintas aplicaciones
+- Dependencia de internet para sincronizar datos
 
-Dificultad para realizar seguimiento académico constante.
+*La ausencia de una herramienta unificada afecta directamente la productividad y el rendimiento académico de los estudiantes.*
 
-Dependencia de múltiples aplicaciones desconectadas.
+---
 
-Inconsistencias al alternar entre computador y dispositivo móvil.
+## **SOLUCIÓN**
 
-Limitaciones al trabajar sin conexión a internet.
+*El SGA ofrece una aplicación completa y centralizada que:*
 
-La ausencia de una plataforma unificada afecta directamente la productividad y el rendimiento académico de los estudiantes.
+- Funciona exclusivamente en **móviles Android**
+- Está desarrollada en **Python**
+- Utiliza **Kivy**
+- Almacena los datos en **SQLite**
+- No requiere conexión a internet
 
-3. SOLUCIÓN
+### *Funcionalidades principales*
 
-El SGA propone una solución completa, integrada y multiplataforma que permite:
+- Registro y control de tareas con fechas de entrega
+- Gestión de calificaciones y cálculo automático de promedios
+- Organización visual de horarios
+- Recordatorios personalizados por fecha y hora
+- Personalización completa de la interfaz
 
-Gestionar todas las actividades académicas desde un solo lugar.
+---
 
-Trabajar tanto en escritorio como en móviles.
+## **OBJETIVOS**
 
-Almacenar datos localmente en SQLite sin necesidad de internet.
+### *Objetivo General*
 
-Mantener una experiencia fluida, moderna y adaptable a las preferencias del usuario.
+*Desarrollar una aplicación móvil en Python que permita gestionar tareas, calificaciones, horarios, recordatorios y configuraciones personales.*
 
-Funcionalidades principales:
+### *Objetivos Específicos*
 
-Registro, edición y control de tareas con fechas de entrega.
+- Diseñar una interfaz adaptable a dispositivos Android
+- Implementar una base de datos SQLite con llaves primarias y foráneas
+- Programar módulos funcionales de tareas, notas, horarios y recordatorios
+- Elaborar diagramas UML estructurales y dinámicos
+- Garantizar la seguridad y persistencia de datos
+- Optimizar la navegación y experiencia del usuario
 
-Gestión de calificaciones con cálculo automático de promedios.
+---
 
-Organización visual de horarios académicos.
+## **ALCANCE DEL PROYECTO**
 
-Creación de recordatorios con fecha y hora.
+*El Sistema de Gestión Académica permite:*
 
-Personalización completa de temas, colores y apariencia.
+- Registrar, editar y eliminar tareas
+- Registrar calificaciones y calcular promedios
+- Gestionar horarios académicos
+- Crear recordatorios personalizados
+- Personalizar temas y colores
 
-4. OBJETIVOS
-Objetivo General
+*El sistema es totalmente funcional offline, pero está preparado para futuras integraciones en la nube.*
 
-Desarrollar una aplicación multiplataforma en Python que permita gestionar tareas, calificaciones, horarios, recordatorios y configuraciones personales de manera integrada y eficiente.
+---
 
-Objetivos Específicos
+## **METODOLOGÍA DE DESARROLLO**
 
-Diseñar una interfaz adaptable tanto para escritorio como para dispositivos móviles.
+*La metodología utilizada es una Agile híbrida combinando:*
 
-Implementar una base de datos relacional SQLite con llaves primarias y foráneas.
+- Scrum (iteraciones y mejoras continuas)
+- Cascada mejorada (fases ordenadas y documentadas)
 
-Construir módulos funcionales para tareas, notas, horarios y recordatorios.
+### *Fases del desarrollo*
 
-Elaborar diagramas UML para representar la estructura del sistema.
+1. Análisis de requerimientos
+2. Diseño UML y MER
+3. Desarrollo en Python con Kivy
+4. Pruebas y depuración
+5. Documentación final
 
-Asegurar la persistencia, integridad y seguridad de los datos.
+---
 
-Optimizar la navegación y la experiencia del usuario mediante un diseño moderno.
+## **REQUERIMIENTOS DEL SISTEMA**
 
-5. ALCANCE DEL PROYECTO
+### *Requerimientos Funcionales (RF)*
 
-El SGA abarca las siguientes funcionalidades:
+- **RF01:** Registrar, modificar y eliminar tareas
+- **RF02:** Asignar tareas a materias
+- **RF03:** Registrar calificaciones y calcular promedios
+- **RF04:** Gestionar horarios académicos
+- **RF05:** Crear recordatorios
+- **RF06:** Personalizar apariencia
+- **RF07:** Almacenar datos en SQLite
+- **RF08:** Sincronizar versiones con exportación/importación manual
 
-Registro, edición y eliminación de tareas.
+### *Requerimientos No Funcionales (RNF)*
 
-Control de calificaciones y cálculo automático de promedios.
+- **RNF01:** Compatible con Android
+- **RNF02:** Tiempo de respuesta menor a 2 segundos
+- **RNF03:** Interfaz adaptable a distintas resoluciones móviles
+- **RNF04:** Interfaz intuitiva
+- **RNF05:** Código modular y documentado
 
-Gestión de horarios académicos organizados visualmente.
+---
 
-Creación de recordatorios personalizados.
+## **ARQUITECTURA DEL SISTEMA**
 
-Personalización estética completa de la interfaz.
+*El sistema se basa en el patrón Modelo–Vista–Controlador (MVC):*
 
-Funcionamiento local sin conexión a internet.
+- **Modelo:** lógica de datos y conexión con SQLite
+- **Vista:** interfaz Kivy
+- **Controlador:** validaciones y manejo de eventos
 
-El sistema está preparado para futuras expansiones, incluyendo sincronización en la nube o integración con plataformas académicas institucionales.
+*Esta arquitectura permite un desarrollo organizado y escalable.*
 
-6. METODOLOGÍA DE DESARROLLO
+---
 
-Se emplea una metodología Ágil híbrida, combinando características de Scrum y de modelos tradicionales como Cascada mejorada. Esto permite mantener un proceso organizado pero flexible ante cambios.
+## **DIAGRAMAS UML**
 
-Fases principales:
+### *Diagramas Estáticos*
 
-Análisis de requerimientos.
+- Diagrama de clases
+- Diagrama de objetos
+- Diagrama de componentes
+- Diagrama de paquetes
+- Diagrama de despliegue
+- Diagrama de estructura compuesta
 
-Diseño estructural mediante UML y modelo entidad–relación.
+### *Diagramas Dinámicos*
 
-Implementación utilizando Python, PyQt y Kivy.
+- Casos de uso
+- Secuencia
+- Comunicación
+- Actividades
+- Estados
+- Tiempo
 
-Pruebas, validación y depuración en múltiples plataformas.
+---
 
-Elaboración de documentación técnica y ejecutiva.
+## **CRONOGRAMA GENERAL**
 
-7. REQUERIMIENTOS DEL SISTEMA
-Requerimientos Funcionales
+| Fase | Actividad                      | Duración  |
+| ---- | ------------------------------ | --------- |
+| 1    | Análisis de requerimientos     | 2 semanas |
+| 2    | Diseño UML y modelo ER         | 2 semanas |
+| 3    | Implementación en Android      | 4 semanas |
+| 4    | Pruebas y validación           | 2 semanas |
+| 5    | Documentación y entrega        | 1 semana  |
 
-RF01: Registrar, modificar y eliminar tareas.
+---
 
-RF02: Asignar tareas a materias específicas.
+## **CONCLUSIÓN**
 
-RF03: Registrar calificaciones y calcular promedios.
+*El Sistema de Gestión Académica (SGA) brinda una solución completa e intuitiva para que los estudiantes organicen su vida académica. Su diseño móvil permite acceder a la información desde cualquier dispositivo Android sin internet, mientras que sus tecnologías base (Python, Kivy y SQLite) aseguran un desarrollo seguro, accesible y escalable.*
 
-RF04: Gestionar horarios académicos.
-
-RF05: Crear recordatorios personalizados.
-
-RF06: Personalizar la apariencia de la aplicación.
-
-RF07: Almacenar datos en una base de datos SQLite.
-
-RF08: Permitir sincronización manual entre versiones de escritorio y móvil.
-
-Requerimientos No Funcionales
-
-RNF01: Compatibilidad con Windows, Linux, macOS y Android.
-
-RNF02: Tiempo de respuesta inferior a 2 segundos.
-
-RNF03: Interfaz adaptable (responsive).
-
-RNF04: Navegación intuitiva y accesible.
-
-RNF05: Código modular, organizado y documentado.
-
-8. ARQUITECTURA DEL SISTEMA
-
-El sistema utiliza el patrón Modelo–Vista–Controlador (MVC):
-
-Modelo: Manejo de datos y comunicación con SQLite.
-
-Vista: Interfaz gráfica desarrollada en PyQt o Kivy.
-
-Controlador: Lógica de interacción, validaciones y flujo de datos.
-
-Esta arquitectura mejora la escalabilidad, portabilidad, mantenimiento y claridad del código.
-
-9. DIAGRAMAS UML
-Diagramas Estáticos
-
-Diagrama de clases
-
-Diagrama de objetos
-
-Diagrama de componentes
-
-Diagrama de paquetes
-
-Diagrama de despliegue
-
-Diagrama de estructura compuesta
-
-Diagramas Dinámicos
-
-Diagrama de casos de uso
-
-Diagrama de secuencia
-
-Diagrama de comunicación
-
-Diagrama de actividades
-
-Diagrama de estados
-
-Diagrama de tiempo
-
-10. CRONOGRAMA GENERAL
-Fase	Actividad	Duración
-1	Análisis de requerimientos	2 semanas
-2	Diseño UML y modelo ER	2 semanas
-3	Implementación multiplataforma	4 semanas
-4	Pruebas y validación	2 semanas
-5	Documentación y entrega	1 semana
-11. CONCLUSIÓN
-
-El Sistema de Gestión Académica (SGA) constituye una herramienta eficaz y moderna para mejorar la organización estudiantil. Su diseño multiplataforma permite acceder a la información desde diferentes dispositivos sin conexión a internet. La combinación de Python, PyQt, Kivy y SQLite ofrece una arquitectura sólida y flexible.
-
-El uso de diagramas UML y modelos relacionales garantiza que el sistema pueda expandirse y mantenerse de forma eficiente. En conjunto, el SGA representa una solución integral que responde a las necesidades actuales de los estudiantes y fortalece su rendimiento académico.
+*Los diagramas UML y el diseño modular garantizan que el sistema pueda expandirse con nuevas funcionalidades a futuro, consolidándose como una herramienta eficiente y sostenible para el entorno educativo actual.*
