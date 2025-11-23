@@ -1,4 +1,4 @@
-DOCUMENTACIÓN DEL PROYECTO: SISTEMA DE GESTIÓN ACADÉMICA (SGA)
+DOCUMENTACIÓN DEL PROYECTO: SISTEMA DE GESTIÓN ACADÉMICA 
 
 Integrantes:
 
@@ -10,7 +10,7 @@ Profesor:
 
 Ing. Hely Suárez Marín
 
-⭐ RESUMEN EJECUTIVO
+ RESUMEN EJECUTIVO
 
 El Sistema de Gestión Académica (SGA) es una aplicación multiplataforma desarrollada en Python, diseñada para funcionar tanto en computadoras de escritorio (usando PyQt / Qt Creator) como en dispositivos móviles (mediante Kivy). Su objetivo es permitir que los estudiantes organicen sus actividades académicas desde una sola herramienta, fácil de usar, con almacenamiento local en SQLite y funcionamiento sin conexión a internet.
 
