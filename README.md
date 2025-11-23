@@ -5,7 +5,7 @@ El proyecto busca proporcionar una base sólida para entender la arquitectura, f
 
  **Aquí encontrarás:**
 
-Diagramas estructurales y funcionales (UML, casos de uso, flujo, ER, arquitectura).
+Diagramas estructurales y funcionales (UML, casos de uso, flujo, arquitectura).
 
 Documentación visual exportada desde Draw.io.
 
