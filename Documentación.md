@@ -1,4 +1,4 @@
-# **DOCUMENTACIÓN DEL PROYECTO: SISTEMA DE GESTIÓN ACADÉMICA (SGA)**
+# **DOCUMENTACIÓN DEL PROYECTO: SISTEMA DE GESTIÓN ACADÉMICA**
 
 *Integrantes:*
 
@@ -13,7 +13,7 @@
 
 ## **RESUMEN EJECUTIVO**
 
-*El Sistema de Gestión Académica (SGA) es una aplicación móvil desarrollada en Python utilizando Kivy, diseñada para funcionar en dispositivos Android. Su objetivo es permitir que los estudiantes organicen sus actividades académicas desde una sola herramienta, fácil de usar, con almacenamiento local en SQLite y funcionamiento sin conexión a internet.*
+*El Sistema de Gestión Académica es una aplicación móvil desarrollada en Python utilizando Kivy, diseñada para funcionar en dispositivos Android. Su objetivo es permitir que los estudiantes organicen sus actividades académicas desde una sola herramienta, fácil de usar, con almacenamiento local en SQLite y funcionamiento sin conexión a internet.*
 
 *El SGA integra gestión de tareas, horarios, calificaciones, recordatorios y personalización, creando un entorno organizado, accesible y moderno. De esta manera, los estudiantes pueden mejorar su productividad, mantener seguimiento de su rendimiento y optimizar la administración de su tiempo.*
 
